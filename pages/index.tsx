@@ -1,11 +1,13 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import React from 'react';
+import Categories from '../components/Categories';
 import Herosection from '../components/Herosection';
 
 import Navbar1 from '../components/Navbar1';
 import Navbar2 from '../components/Navbar2';
 import Newcollection from '../components/Newcollection';
+import Product from '../components/Product';
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
       <Navbar2/>
       <Herosection/>
       <Newcollection/>
+      <Categories/>
+      <Product/>
      
     </div>
   );
